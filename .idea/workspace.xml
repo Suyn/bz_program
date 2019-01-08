@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02f89eaf-b141-4dc9-9eae-24a669e71948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin_app/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/+.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/-.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/1_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/2_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/3_del.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/VerifyCode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/act_btn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/ajax-loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/back.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/bar9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/box_tit_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/closed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/edt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_nav_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_nav_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_shadow_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_title_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_title_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_title_over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancy_title_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancybox-x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancybox-y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/fancybox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/go.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/left_tab_Selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/left_tab_Selectedno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/left_tabid_cnt_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/left_tt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/login_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/main_12_me.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/main_12_me2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/minus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tab_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tableline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tableline_bottom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tableline_top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tablemde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tdbj.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/tip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/top_tt_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/authority/zTreeStandard1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/1_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/2_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/3_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/close.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/date.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/module_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/module_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/module_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/month.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_hide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_item_minus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_item_plus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_item_v.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_item_v_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/nav_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/page_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/common/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/copy_rignt_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/login/btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/login/btn_hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/login/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/xngzf/ht01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/images/xngzf/ht02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/Validform_v5.3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/Validform_v5.3.2_min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/jQuery1.7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/jquery.SuperSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/js/jquery1.42.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/artDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/artDialog.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/jquery.artDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/jquery.artDialog.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/plugins/iframeTools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/plugins/iframeTools.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/aero_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/aero_s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_title_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/aero/ie6/aui_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/bg_css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/bg_css3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/black/ie6/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/bg_css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/bg_css3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/blue/ie6/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/chrome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/chrome/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/chrome/chrome_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/bg_css3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/bg_css3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/color_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/green/ie6/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/face-sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/face-smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/succeed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/icons/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/idialog_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/idialog_s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/idialog/ie6/aui_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_close.hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_nw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_sw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/ie6/aui_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/opera/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/artDialog/skins/twitter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/authority/commonAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/authority/idCardValidate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/canvas-nest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/fancybox/jquery.easing-1.3.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/fancybox/jquery.fancybox-1.3.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/jquery/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/jquery/jquery-1.7.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/jquery/jquery.alerts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.all-3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.all-3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.core-3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.core-3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.excheck-3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.excheck-3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.exedit-3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/scripts/zTree/jquery.ztree.exedit-3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/Copy of zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/basic_layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/common_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/jquery.fancybox-1.3.4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/login_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/main_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/compiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/creation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/introspection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pool/validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/introduce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop_test1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop_test1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop_test1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop_test1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop_test1/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../happybase/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase_test/templates/admin_app/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/baidusxr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/bosszp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/chaojiying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/rrw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/baihewang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/chi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/songjia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/wb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day4/zl_fengzhuang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/crawelSpider_51job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/getSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day7/ImageSpider/ImageSpider/spiders/imgSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/test1Spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/test1Spider/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/test1Spider/test1Spider/spiders/zgsb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/testSpider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/testSpider/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day9/testSpider/testSpider/spiders/dzdp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/test_pack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/test_pack/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/test_pack/zhilian_test10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/test_pack/zhilian_test20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/hangyeSpider/hangyeSpider/spiders/zhiye.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/hangyeSpider/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/shujuqingxi_doc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/shujuqingxi_xlsx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/wh_company/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/wh_company/wh_company/spiders/wh_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/wh_people/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/wh_people/wh_people/spiders/wh_people.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/zpg_company/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/zpg_company/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/zpg_company/zpg_company/spiders/zpg_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/zpg_people/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/xiangmu/zpg_people/zpg_people/spiders/zpg_people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems_practice/.idea/ems_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ems_practice/.idea/ems_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/admin_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/admin_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/backstage_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/backstage_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/car_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/car_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/index_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/index_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/templates/backstage_app/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/backstage_app/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/templates/index_app/Book details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/Book details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/templates/index_app/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/booklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/templates/index_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wed_login/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin_app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin_app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin_app/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/introduce.html" />
+        <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/templates/menu.html" />
+        <option value="$PROJECT_DIR$/baizhi_web/urls.py" />
+        <option value="$PROJECT_DIR$/admin_app/models.py" />
+        <option value="$PROJECT_DIR$/baizhi_web/settings.py" />
+        <option value="$PROJECT_DIR$/../web/web/settings.py" />
+        <option value="$PROJECT_DIR$/admin_app/urls.py" />
+        <option value="$PROJECT_DIR$/templates/admin_app/register.html" />
+        <option value="$PROJECT_DIR$/admin_app/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="car_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="car_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\后端\ems\baizhi_web\templates\admin_app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\后端\ems\baizhi_web\templates" />
+      <recent name="E:\后端\ems\baizhi_web" />
+      <recent name="E:\后端\ems\baizhi_web\templates\admin_app" />
+      <recent name="E:\后端\ems\baizhi_web\admin_app\static" />
+      <recent name="E:\后端\ems\baizhi_web\admin_app\static\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="baizhi_web" type="Python.DjangoServer" factoryName="Django server">
+      <module name="baizhi_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02f89eaf-b141-4dc9-9eae-24a669e71948" name="Default Changelist" comment="" />
+      <created>1546912350511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546912350511</updated>
+      <workItem from="1546912354906" duration="4729000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4729000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin_app/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/static/js/jQuery1.7.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/templates/admin_app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1657">
+          <caret line="461" lean-forward="true" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/admin_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool/base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/admin_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/visual/vis/Lib/site-packages/django/core/checks/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/car_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/car_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baizhi_web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baizhi_web/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="126" column="36" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/web/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/car.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
