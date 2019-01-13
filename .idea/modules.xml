@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/爬虫/Code/.idea/Code.iml" filepath="E:/爬虫/Code/.idea/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/baizhi_web.iml" filepath="$PROJECT_DIR$/.idea/baizhi_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/.idea/demo_for_pyecharts.iml" filepath="$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/.idea/demo_for_pyecharts.iml" />
+      <module fileurl="file://E:/后期项目/短信服务/dysms_python/.idea/dysms_python.iml" filepath="E:/后期项目/短信服务/dysms_python/.idea/dysms_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pc_text1/.idea/pc_text1.iml" filepath="$PROJECT_DIR$/../pc_text1/.idea/pc_text1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../pyecharts/syjpyecharts/.idea/test_pyecharts.iml" filepath="$PROJECT_DIR$/../../pyecharts/syjpyecharts/.idea/test_pyecharts.iml" />
       <module fileurl="file://$PROJECT_DIR$/../web/.idea/web.iml" filepath="$PROJECT_DIR$/../web/.idea/web.iml" />
     </modules>
   </component>

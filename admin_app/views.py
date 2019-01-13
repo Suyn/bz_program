@@ -2,6 +2,8 @@ import random
 import string
 import os
 import re
+import uuid
+
 from django.contrib.auth.hashers import check_password, make_password
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
@@ -9,16 +11,21 @@ from django.shortcuts import render, redirect
 # Create your views here.
 #生成一个验证码 并将图片，写出给浏览器
 from admin_app.models import User
+# from demo_sms_send import send_sms
+from demo_sms_send import send_sms
+from dysms_python import demo_sms_send as send
+
 
 
 def getcaptcha(request):
+    print('##############333')
     #从image.py中导入ImageCaptcha类，ImageCaptcha是图片验证码的核心类
     from captcha.image import ImageCaptcha
     #为验证码设置字体，获取项目目录下的字体文件
     imgage = ImageCaptcha(fonts=[os.path.abspath("fonts/segoeprb.ttf")])
     #随机码
     #大小写英文字母+数字，并随机取5位作为验证码
-    code=random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,3)
+    code=random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,4)
     #code是一个列表 用join转换成字符串
     #将验证码存入session，以备后续验证
     request.session["code"]="".join(code)
@@ -35,26 +42,41 @@ def check_captcha(request):
         return HttpResponse("ok")
     return HttpResponse("error")
 
-# #ajax异步验证昵称
-# def check_nike(request):
-#     nike=request.POST.get("nike")
-#     if not nike:
-#         return HttpResponse("0")
-#     return HttpResponse("1")
-#
-# #ajax异步验证password
-# def check_pwd(request):
-#     s1=(r'\W{6,20}')
-#     password=request.POST.get("password")
-#     if not password:
-#         return HttpResponse("3")
-#     elif len(password)<6:
-#         return HttpResponse("0")
-#     else:
-#         if re.findall(s1,password,re.I) or password.isdigit() or password.isalpha():
-#             return HttpResponse("2")
-#         return HttpResponse("1")
-#
+#注册时ajax异步验证phone
+def check_phone(request):
+    phone=request.POST.get("usrtel")
+    print('###########',phone)
+    if not phone:
+        return HttpResponse("0")
+    user = User.objects.filter(phone=phone)
+    print('!!!!!!!!!!!',user)
+    if not user:
+        return HttpResponse('1')
+    return HttpResponse("2")
+
+#ajax异步验证昵称
+def check_nike(request):
+    phone=request.POST.get("username")
+    if not phone:
+        return HttpResponse("0")
+        user = User.objects.filter(phone=phone)
+        if not user:
+            return HttpResponse('2')
+    return HttpResponse("1")
+
+#ajax异步验证password
+def check_pwd(request):
+    phone = request.POST.get("username")
+    password = request.POST.get("password")
+    user = User.objects.filter(phone=phone)
+    if not user:
+        return HttpResponse('0')
+    if user:
+        check = check_password(password, User.objects.get(phone=phone).password)
+        if check:
+            return HttpResponse('1')
+    return HttpResponse('2')
+
 def regist_page(request):
     return render(request,"admin_app/register.html")
 
@@ -70,43 +92,59 @@ def regist_logic(request):
     return render(request, "admin_app/index.html")
 
 def login_page(request):
-    name=request.session.get("name")
-    if name:
-        return render(request,"admin_app/index.html",{"name":name})
+    if 'HTTP_X_FORWARDED_FOR' in request.META:
+        ip = request.META.get('HTTP_X_FORWARDED_FOR')
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    request.session['ip']=ip
     return render(request,"admin_app/index.html")
 
-# def login_logic(request):
-#     #接受参数
-#     flag=request.GET.get("flag")
-#     txtUsername=request.POST.get("txtUsername")
-#     txtPassword=request.POST.get("txtPassword")
-#     #是否7天内自动登录
-#     autologin=request.POST.get("autologin")
-#     user=User.objects.filter(email=txtUsername)
-#     if user:
-#         check=check_password(txtPassword,User.objects.get(email=txtUsername).password)
-#         if check:
-#             request.session["nike"] = User.objects.get(email=txtUsername).username
-#             status=User.objects.get(email=txtUsername).status
-#             if status:
-#                 if autologin:
-#                     request.session["name"]=txtUsername
-#                 #根据flag进行判断跳转到哪 若为0，则从主页而来；若为1，则从购物车跳过来，强制登录
-#                     if flag=="1":
-#                         return redirect("order:settle_accounts")
-#                     return redirect("all:main_page")
-#             else:
-#                 err2='邮箱验证错误，请重新注册！'
-#                 return render(request, "admin_app/login.html", {"flag": flag, "err": err2})
-#         else:
-#             err = '密码错误，请重新登录!'
-#             return render(request,"admin_app/login.html",{"flag":flag,"err":err})
-#     err1 = '用户名错误，请重新登录!'
-#     return render(request,"admin_app/login.html",{"flag":flag,"err":err1})
-#
-# def del_session(request):
-#     del request.session["nike"]
-#     return redirect("all:main_page")
-#
-#
-#
+def login_logic(request):
+    #接受参数
+    phone=request.POST.get("username")
+    password=request.POST.get("password")
+    user=User.objects.filter(phone=phone)
+    if user:
+        check=check_password(password,User.objects.get(phone=phone).password)
+        if check:
+            #phone存session
+            request.session["name"] = User.objects.get(phone=phone).phone
+            #重定向到展示view
+            return HttpResponse('登录成功')
+            # return redirect("order:settle_accounts")
+        else:
+            err = '密码错误，请重新登录!'
+            return render(request, "admin_app/index.html",{'err':err})
+    err1 = '用户名错误，请重新登录!'
+    return render(request,"admin_app/index.html",{'err1':err1})
+
+def send_code(request):
+    phone = request.POST.get("phone")
+    print(phone)
+    code="".join(random.sample(string.digits,6))
+    request.session['real_code']=code
+    print(code)
+    __business_id = uuid.uuid1()
+    params = u'{"code":' + code + '}'
+    print(send.send_sms(__business_id,phone, "广告", "SMS_29435071", params).decode('utf-8'))
+    return HttpResponse('ok')
+
+def login_logic_phone(request):
+    #接受参数
+    real_code=request.session.get('real_code')
+    phone=request.POST.get("username")
+    code=request.POST.get("code")
+    user=User.objects.filter(phone=phone)
+    print(real_code,phone,code)
+    if user:
+        if real_code==code:
+            #phone存session
+            request.session["name"] = User.objects.get(phone=phone).phone
+            #重定向到展示view
+            return HttpResponse('登录成功')
+            # return redirect("order:settle_accounts")
+        else:
+            errphone = '验证码错误，请重新登录!'
+            return render(request, "admin_app/index.html",{'errphone':errphone})
+    errphone1 = '用户名错误，请重新登录!'
+    return render(request,"admin_app/index.html",{'errphone1':errphone1})

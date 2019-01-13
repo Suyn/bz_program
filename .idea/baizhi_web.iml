@@ -17,6 +17,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="web" />
+    <orderEntry type="module" module-name="test_pyecharts" />
+    <orderEntry type="module" module-name="demo_for_pyecharts" />
+    <orderEntry type="module" module-name="pc_text1" />
+    <orderEntry type="module" module-name="Code" />
+    <orderEntry type="module" module-name="dysms_python" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

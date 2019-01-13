@@ -19,13 +19,16 @@
 <div class="log">
 	<div class="content2">
 		<h2>Register</h2>
-		<form method="post" action="{% url 'admins:regist_logic' %}">
+		<form method="post" action="{% url 'admins:regist_logic' %}" id="form_all">
             {% csrf_token %}
 			<input type="text" name="userid" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME AND SURNAME';}">
-			<input type="tel" name="usrtel" value="PHONE" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PHONE';}">
+			<input type="tel" name="usrtel" id="phone" value="PHONE" onblur="check_phone()">
+            <p id="err_phone" style="font-size: 12px;color: red;display: none">该用户已注册！</p>
+            <p id="full_phone" style="font-size: 12px;color: red;display: none">手机号不能为空！</p>
 			<input type="email" name="email" value="EMAIL ADDRESS" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'EMAIL ADDRESS';}">
 			<input type="password" name="psw" value="PASSWORD" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'PASSWORD';}">
-			<input type="submit" class="register" value="Register">
+{#			<input type="submit" class="register" id="btn" value="Register">#}
+			<input type="button" class="register" id="btn" value="Register" onclick="submits()">
 		</form>
 	</div>
 	<div class="clear"></div>
@@ -35,4 +38,42 @@
 </div>
 
 </body>
+<script type="text/javascript" src="/static/js/jQuery1.7.js"></script>
+<script type="text/javascript" src="/static/js/jquery-1.8.2.min.js"></script>
+<script>
+    a=1;
+    var csrftoken = "{{ csrf_token }}";
+    //异步验证phone
+    function check_phone() {
+        console.log('123')
+        $.ajax({
+                    headers:{"X-CSRFToken":csrftoken},
+                    type:'post',
+                    data:{"usrtel":$("#phone").val()},
+                    url:"{% url 'admins:check_phone' %}",
+                    success:function (ret) {
+                        if (ret=="2"){
+                            console.log('222')
+                            $("#err_phone").css("display",'inline');
+                            $("#full_phone").css("display",'none');
+                        }
+                        else if(ret=="1") {
+                            console.log('111')
+                            $("#err_phone").css("display",'none');
+                            $("#full_phone").css("display",'none');
+                        }
+                        else if(ret=="0"){
+                            console.log('000')
+                            $("#err_phone").css("display",'none');
+                            $("#full_phone").css("display",'inline');
+                        }
+                    }
+                })
+    }
+    function submits() {
+        if(a){
+            $('#form_all').submit()
+        }
+    }
+</script>
 </html>

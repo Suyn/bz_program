@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/admin_app/views.py" description="# from demo_sms_send import send_sms" line="13" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="02f89eaf-b141-4dc9-9eae-24a669e71948" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/admin_app/static/__init__.py" afterDir="false" />
@@ -288,6 +291,85 @@
       <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/main_css.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/admin_app/static/style/authority/zTreeStyle.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/admin_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/.idea/dysms_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyun_python_sdk_dysmsapi.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyun_python_sdk_dysmsapi.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyun_python_sdk_dysmsapi.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyun_python_sdk_dysmsapi.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyun_python_sdk_dysmsapi.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdybaseapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdybaseapi/request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdybaseapi/request/v20170525/QueryTokenForMnsQueueRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdybaseapi/request/v20170525/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/QueryInterSmsIsoInfoRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/QuerySendDetailsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/QueryTokenForMnsQueueRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/SendBatchSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/SendInterSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/SendSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/aliyunsdkdysmsapi/request/v20170525/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdybaseapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdybaseapi/request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdybaseapi/request/v20170525/QueryTokenForMnsQueueRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdybaseapi/request/v20170525/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/QueryInterSmsIsoInfoRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/QuerySendDetailsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/QueryTokenForMnsQueueRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/SendBatchSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/SendInterSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/SendSmsRequest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/build/lib/aliyunsdkdysmsapi/request/v20170525/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/demo_sms_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/demo_sms_query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/demo_sms_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/dist/aliyun_python_sdk_dysmsapi-1.0.0-py3.5.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/bin/mnscmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_exception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_pkg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_subscription.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_topic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/mns/mns_xml_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/access_log.8080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/createqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/createtopic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/deletequeue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/deletetopic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/endpoint_log.8080" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/publishmessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/recvdelmessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/sample_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/sendmessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/simple_http_notify_endpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/simple_https_notify_endpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/subscribe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/sample/subscribe_queueendpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/mns_python_sdk/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dysms_python/setup.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pool/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pool/base.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pool/client.py" afterDir="false" />
@@ -313,6 +395,7 @@
       <change afterPath="$PROJECT_DIR$/../pc_text1/day3/bosszp.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day3/chaojiying.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day3/rrw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day3/zhilian_city.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day4/BFS.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day4/DFS.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day4/__init__.py" afterDir="false" />
@@ -327,6 +410,7 @@
       <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/crawelSpider_51job.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/getSpider.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/show_city.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day7/ImageSpider/ImageSpider/spiders/imgSpider.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day7/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pc_text1/day9/__init__.py" afterDir="false" />
@@ -364,6 +448,7 @@
       <change beforePath="$PROJECT_DIR$/../web/car_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/car_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/index_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../web/index_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/templates/backstage_app/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/backstage_app/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/templates/car_app/car.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/templates/index_app/Book details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/Book details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/templates/index_app/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/booklist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/templates/index_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/templates/index_app/index.html" afterDir="false" />
@@ -375,13 +460,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/baizhi_web$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1547017253944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/test_pyecharts" />
+    <SUITE FILE_PATH="coverage/baizhi_web$demo_sms_send__1_.coverage" NAME="demo_sms_send (1) Coverage Results" MODIFIED="1547197848215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dysms_python" />
+    <SUITE FILE_PATH="coverage/baizhi_web$demo_sms_send.coverage" NAME="demo_sms_send Coverage Results" MODIFIED="1547175146765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/后期项目/短信服务/dysms_python" />
+    <SUITE FILE_PATH="coverage/baizhi_web$AI137_zhilian.coverage" NAME="AI137_zhilian Coverage Results" MODIFIED="1547005540200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/爬虫/Code/day1" />
+    <SUITE FILE_PATH="coverage/baizhi_web$urls.coverage" NAME="urls Coverage Results" MODIFIED="1547019483863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart_app" />
+    <SUITE FILE_PATH="coverage/baizhi_web$zhilian_city.coverage" NAME="zhilian_city Coverage Results" MODIFIED="1547027750619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pc_text1/day3" />
+    <SUITE FILE_PATH="coverage/baizhi_web$WBSpider.coverage" NAME="WBSpider Coverage Results" MODIFIED="1547005433531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/爬虫/Code/day5/AI137_first/AI137_first/spiders" />
+    <SUITE FILE_PATH="coverage/baizhi_web$views.coverage" NAME="views Coverage Results" MODIFIED="1547020491735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart_app" />
+    <SUITE FILE_PATH="coverage/baizhi_web$views__2_.coverage" NAME="views (2) Coverage Results" MODIFIED="1547175223103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/admin_app" />
+    <SUITE FILE_PATH="coverage/baizhi_web$show_city.coverage" NAME="show_city Coverage Results" MODIFIED="1547005612063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders" />
+    <SUITE FILE_PATH="coverage/baizhi_web$main.coverage" NAME="main Coverage Results" MODIFIED="1547014817938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pc_text1/day5/scr_pro1" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="28">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -390,19 +491,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin_app/models.py">
+        <entry file="file://$PROJECT_DIR$/dysms_python/demo_sms_send.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/admin_app/register.html">
+        <entry file="file://$PROJECT_DIR$/templates/admin_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="8400">
+              <caret line="336" column="62" selection-start-line="336" selection-start-column="62" selection-end-line="336" selection-end-column="62" />
+              <folding>
+                <element signature="e#6804#7641#0#HTML" />
+                <element signature="n#style#0;n#span#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -410,8 +515,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+            <state relative-caret-position="150">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -428,6 +533,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>refre</find>
+      <find>captcha</find>
+      <find>err</find>
+      <find>submit</find>
+      <find>script</find>
+      <find>check_phone</find>
+      <find>inn</find>
+      <find>javas</find>
+      <find>check_code</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -438,20 +556,35 @@
         <option value="$PROJECT_DIR$/templates/introduce.html" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/menu.html" />
-        <option value="$PROJECT_DIR$/baizhi_web/urls.py" />
-        <option value="$PROJECT_DIR$/admin_app/models.py" />
-        <option value="$PROJECT_DIR$/baizhi_web/settings.py" />
         <option value="$PROJECT_DIR$/../web/web/settings.py" />
-        <option value="$PROJECT_DIR$/admin_app/urls.py" />
         <option value="$PROJECT_DIR$/templates/admin_app/register.html" />
+        <option value="$PROJECT_DIR$/baizhi_web/settings.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day9/testSpider/testSpider/spiders/dzdp.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/xiangmu/wh_company/wh_company/spiders/wh_company.py" />
+        <option value="E:/爬虫/Code/day1/AI137_zhilian.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/main.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/pipelines.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/items.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/show_city.py" />
+        <option value="$PROJECT_DIR$/chart_app/models.py" />
+        <option value="$PROJECT_DIR$/baizhi_web/urls.py" />
+        <option value="$PROJECT_DIR$/chart_app/urls.py" />
+        <option value="$PROJECT_DIR$/../pc_text1/day3/zhilian_city.py" />
+        <option value="$PROJECT_DIR$/chart_app/views.py" />
+        <option value="$PROJECT_DIR$/admin_app/urls.py" />
+        <option value="$PROJECT_DIR$/demo_sms_send.py" />
+        <option value="E:/后期项目/短信服务/dysms_python/demo_sms_send.py" />
+        <option value="$PROJECT_DIR$/templates/admin_app/index.html" />
+        <option value="$PROJECT_DIR$/dysms_python/demo_sms_send.py" />
+        <option value="$PROJECT_DIR$/admin_app/models.py" />
         <option value="$PROJECT_DIR$/admin_app/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="815" />
+    <option name="width" value="1115" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -459,7 +592,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,66 +607,32 @@
             <path>
               <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
-              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baizhi_web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="car_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="car_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baizhi_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dysms_python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="last_opened_file_path" value="E:/后期项目/短信服务/dysms_python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\后端\ems\baizhi_web\templates\admin_app" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\后端\ems\baizhi_web\templates" />
       <recent name="E:\后端\ems\baizhi_web" />
-      <recent name="E:\后端\ems\baizhi_web\templates\admin_app" />
-      <recent name="E:\后端\ems\baizhi_web\admin_app\static" />
-      <recent name="E:\后端\ems\baizhi_web\admin_app\static\images" />
+      <recent name="E:\后端\pyecharts\demo_for_pyecharts\test_pyecharts" />
+      <recent name="E:\后端\pyecharts\demo_for_pyecharts\templates" />
+      <recent name="E:\后端\ems\web\templates\car_app" />
+      <recent name="E:\后端\ems\baizhi_web\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -549,13 +647,124 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.demo_sms_send (1)">
+    <configuration name="demo_sms_send (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baizhi_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dysms_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dysms_python/demo_sms_send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_sms_send" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dysms_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="F:\visual\vis\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="E:/后期项目/短信服务/dysms_python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/后期项目/短信服务/dysms_python/demo_sms_send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baizhi_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin_app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/admin_app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="baizhi_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart_app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart_app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zhilian_city" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pc_text1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pc_text1/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pc_text1/day3/zhilian_city.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="baizhi_web" type="Python.DjangoServer" factoryName="Django server">
       <module name="baizhi_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="baizhi_web.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -573,6 +782,48 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo_for_pyecharts" type="Python.DjangoServer" factoryName="Django server">
+      <module name="demo_for_pyecharts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="demo_for_pyecharts.settings" />
+      </envs>
+      <option name="SDK_HOME" value="F:\visual\vis\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.baizhi_web" />
+      <item itemvalue="Django server.demo_for_pyecharts" />
+      <item itemvalue="Python.zhilian_city" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.views (2)" />
+      <item itemvalue="Python.demo_sms_send" />
+      <item itemvalue="Python.demo_sms_send (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo_sms_send (1)" />
+        <item itemvalue="Python.views (2)" />
+        <item itemvalue="Python.demo_sms_send" />
+        <item itemvalue="Python.zhilian_city" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -584,204 +835,445 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546912350511</updated>
-      <workItem from="1546912354906" duration="4729000" />
+      <workItem from="1546912354906" duration="35668000" />
+      <workItem from="1547005883721" duration="7184000" />
+      <workItem from="1547019017208" duration="1217000" />
+      <workItem from="1547020268069" duration="9029000" />
+      <workItem from="1547088490372" duration="15089000" />
+      <workItem from="1547341873934" duration="590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4729000" />
+    <option name="totallyTimeSpent" value="68777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11930295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24220963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33144477" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20844504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24220963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33144477" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin_app/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../web/templates/car_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="222" column="40" lean-forward="true" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin_app/static/js/jQuery1.7.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin_app/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/../web/car_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../web/templates/admin_app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1657">
-          <caret line="461" lean-forward="true" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1418">
-          <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
+        <state relative-caret-position="129">
+          <caret line="66" column="152" selection-start-line="66" selection-start-column="149" selection-end-line="66" selection-end-column="152" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../web/admin_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="-1536">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pool/base.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/web/urls.py">
+    <entry file="file://F:/visual/vis/Lib/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="71">
+          <caret line="406" selection-start-line="406" selection-end-line="406" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/admin_app/urls.py">
+    <entry file="file://F:/visual/vis/Lib/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="71">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/visual/vis/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/visual/vis/Lib/site-packages/django/core/checks/urls.py">
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/syjpyecharts/test_echarts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="-51">
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/car_app/models.py">
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/test_pyecharts/static/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/templates/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/car_app/urls.py">
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day3/rrw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/crawelSpider_51job.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/51job_CrawlSpider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/AI137Spider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/CookieSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317" />
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/HeaderSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217" />
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/PostSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353" />
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/ProxySpider.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/img.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/getSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-942">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day9/test1Spider/test1Spider/spiders/zgsb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day9/testSpider/testSpider/spiders/dzdp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day5/AI137_first/AI137_first/spiders/WBSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day1/AI137_zhilian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#158#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/xiangmu/wh_company/wh_company/spiders/wh_company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/爬虫/Code/day1/AI137_urllib_get_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/xiangmu/wh_company/wh_company/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="56" column="26" selection-start-line="54" selection-start-column="8" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/scr_pro1/spiders/show_city.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day5/scr_pro1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day9/testSpider/testSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baizhi_web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="97">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin_app/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baizhi_web/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/test_pyecharts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="126" column="36" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        <state relative-caret-position="650">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/web/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/demo_for_pyecharts/demo_for_pyecharts/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../pyecharts/syjpyecharts/pyecharts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day3/zhilian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+        <state relative-caret-position="275">
+          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin_app/urls.py">
+    <entry file="file://$PROJECT_DIR$/../pc_text1/day3/zhilian_city.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        <state relative-caret-position="1003">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#2070#2386#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_app/register.html">
+    <entry file="file://$PROJECT_DIR$/baizhi_web/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="150">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/templates/admin_app/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_sms_send.py" />
+    <entry file="file://E:/后期项目/短信服务/dysms_python/demo_sms_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+          <folding>
+            <element signature="e#25#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/car.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/admin_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="28">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dysms_python/demo_sms_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8400">
+          <caret line="336" column="62" selection-start-line="336" selection-start-column="62" selection-end-line="336" selection-end-column="62" />
+          <folding>
+            <element signature="e#6804#7641#0#HTML" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
