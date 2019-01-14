@@ -14,14 +14,9 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (dj_env) (1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="web" />
-    <orderEntry type="module" module-name="test_pyecharts" />
-    <orderEntry type="module" module-name="demo_for_pyecharts" />
-    <orderEntry type="module" module-name="pc_text1" />
-    <orderEntry type="module" module-name="Code" />
-    <orderEntry type="module" module-name="dysms_python" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />

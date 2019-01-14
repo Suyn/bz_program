@@ -1,7 +1,7 @@
 import MySQLdb
 from django.http import HttpResponse
 from django.shortcuts import render
-# from pyecharts import Bar
+from pyecharts import Bar
 # Create your views here.
 
 conn = MySQLdb.Connect(
@@ -41,7 +41,7 @@ for data in datas:
         num.append(int(data[1]))
 
 def demo(request):
-    #     bar = Bar("城市招聘量", "这里是副标题")
+    # bar = Bar("城市招聘量", "这里是副标题")
     # bar.use_theme('dark')
     # bar.add("城市", city,num )
     # bar.render('F:demo.html')

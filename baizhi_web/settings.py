@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'admin_app',
-    'chart_app',
+    # 'chart_app',
+    'show_data_app',
+    'show_echarts_app',
 ]
 
 MIDDLEWARE = [
@@ -49,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'middleware.prohibitCrawl.prohibitCrawlMiddleWare.ProhibitCrawlMiddleWare',
+    'middleware.countLogs.countLogsMiddleWare.CountLogsMiddleWare',
 ]
 
 ROOT_URLCONF = 'baizhi_web.urls'
@@ -79,11 +83,11 @@ WSGI_APPLICATION = 'baizhi_web.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'pool',
-        'NAME': "gmyj",
-        'HOST':'localhost',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'562676'
+        'NAME': "test_urllib",
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'lk1997'
     }
 }
 
@@ -126,9 +130,75 @@ USE_TZ = False
 STATIC_URL = '/static/'
 # 设置为一个会话结束
 SESSION_EXPIRE_AT_BROWSER_CLOSE=True
-#session可以存储更多class to serialize session data
+# session可以存储更多class to serialize session data
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
-#Media_Root==告知项目中所有的ImageFiled  FileFiled 上传来的文件该存在哪个位置
+# Media_Root==告知项目中所有的ImageFiled  FileFiled 上传来的文件该存在哪个位置
 MEDIA_ROOT=os.path.join(BASE_DIR,"media")
-#MEDIA_ROOT定制为了静态的根目录之一，则，其内部的文件，就有机会被外界访问
+# MEDIA_ROOT定制为了静态的根目录之一，则，其内部的文件，就有机会被外界访问
 STATICFILES_DIRS = [MEDIA_ROOT]
+
+
+# cache缓存
+CACHES = {
+      "default": {
+         # pip install django-redis
+         "BACKEND": "django_redis.cache.RedisCache",  # Redis缓存入口，其中使用DefaultClient操作缓存
+         "LOCATION": "redis://192.168.15.128:6379/15",  # ip:port/db_index
+         "OPTIONS": {
+           "CLIENT_CLASS": "django_redis.client.DefaultClient"  # 操作缓存的对象
+         }
+      }
+}
+
+# 设置session缓存
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+
+
+# # 创建日志的路径
+# LOG_PATH = os.path.join(BASE_DIR, 'logs')
+# # 如果地址不存在，则自动创建log文件夹
+# if not os.path.join(LOG_PATH):
+#     os.mkdir(LOG_PATH)
+#
+# LOGGING = {
+#     # version只能为1,定义了配置文件的版本，当前版本号为1.0
+#     "version": 1,
+#     # True表示禁用logger
+#     "disable_existing_loggers": True,
+#     # 格式化
+#     'formatters': {
+#         'default': {
+#             'format': '%(levelname)s\t%(asctime)s\t%(module)s\t%(process)d\t%(thread)d\t%(message)s'
+#         },
+#     },
+#     'handlers': {
+#         'my_handlers': {
+#             'level': 'DEBUG',
+#             # 日志文件指定为5M, 超过5m重新命名，然后写入新的日志文件
+#             'class': 'logging.handlers.RotatingFileHandler',
+#             # 指定文件大小
+#             'maxBytes': 5 * 1024,
+#             # 指定文件地址
+#             'filename': '%s/log.txt' % LOG_PATH,
+#             'formatter': 'default'
+#         },
+#     },
+#     'loggers': {
+#         'my': {
+#             'handlers': ['my_handlers'],
+#             'level': 'INFO',
+#         },
+#     },
+# }
+#
+# DJANGO_LOG_LEVEL = DEBUG
+
+
+# Prohibit Crawl Settings
+MAX_VIEW_NUM = 100
+TIME_INTERVAL = 10
+EXP_TIME = 60**2
+
+
+# 创建报表HTML的路径
+TABLE_PATH = os.path.join(BASE_DIR, 'templates')

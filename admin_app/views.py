@@ -12,29 +12,31 @@ from django.shortcuts import render, redirect
 #生成一个验证码 并将图片，写出给浏览器
 from admin_app.models import User
 # from demo_sms_send import send_sms
-from demo_sms_send import send_sms
+from dysms_python.demo_sms_send import send_sms
 from dysms_python import demo_sms_send as send
+from lib.captcha.image import ImageCaptcha
 
 
 
 def getcaptcha(request):
-    print('##############333')
-    #从image.py中导入ImageCaptcha类，ImageCaptcha是图片验证码的核心类
-    from captcha.image import ImageCaptcha
-    #为验证码设置字体，获取项目目录下的字体文件
-    imgage = ImageCaptcha(fonts=[os.path.abspath("fonts/segoeprb.ttf")])
-    #随机码
-    #大小写英文字母+数字，并随机取5位作为验证码
-    code=random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,4)
-    #code是一个列表 用join转换成字符串
-    #将验证码存入session，以备后续验证
+    # print('##############333')
+    # 从image.py中导入ImageCaptcha类，ImageCaptcha是图片验证码的核心类
+    # 为验证码设置字体，获取项目目录下的字体文件
+    imgage = ImageCaptcha(fonts=[os.path.abspath('lib/captcha/verdana.ttf')])
+    # 随机码
+    # 大小写英文字母+数字，并随机取5位作为验证码
+    code = random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,4)
+    print('验证码：', code)
+    # code是一个列表 用join转换成字符串
+    # 将验证码存入session，以备后续验证
     request.session["code"]="".join(code)
-    #将生成的随机字符拼接成字符串，作为验证码图片中的文本
-    data=imgage.generate("".join(code))
-    #写出验证图片给客户端 告知浏览器，写出的内容是一图片
+    # 将生成的随机字符拼接成字符串，作为验证码图片中的文本
+    data = imgage.generate("".join(code))
+    # 写出验证图片给客户端 告知浏览器，写出的内容是一图片
     return HttpResponse(data,"image/png")
 
-#ajax异步验证验证码
+
+# ajax异步验证验证码
 def check_captcha(request):
     number=request.POST.get("number")
     num=request.session.get("code")
@@ -77,6 +79,7 @@ def check_pwd(request):
             return HttpResponse('1')
     return HttpResponse('2')
 
+
 def regist_page(request):
     return render(request,"admin_app/register.html")
 
@@ -86,10 +89,10 @@ def regist_logic(request):
     email=request.POST.get('email')
     psw=request.POST.get('psw')
     password=make_password(psw) #传入密文
-    user=User(email=email,username=userid,password=password,phone=usrtel)
+    user=User(email=email, username=userid, password=password, phone=usrtel)
     user.save()
     request.session["name"]=usrtel
-    return render(request, "admin_app/index.html")
+    return redirect('back_end:show_index')
 
 def login_page(request):
     if 'HTTP_X_FORWARDED_FOR' in request.META:
@@ -110,7 +113,7 @@ def login_logic(request):
             #phone存session
             request.session["name"] = User.objects.get(phone=phone).phone
             #重定向到展示view
-            return HttpResponse('登录成功')
+            return redirect('back_end:show_index')
             # return redirect("order:settle_accounts")
         else:
             err = '密码错误，请重新登录!'
@@ -141,7 +144,8 @@ def login_logic_phone(request):
             #phone存session
             request.session["name"] = User.objects.get(phone=phone).phone
             #重定向到展示view
-            return HttpResponse('登录成功')
+            print('--------------->  Success')
+            return redirect('back_end:show_index')
             # return redirect("order:settle_accounts")
         else:
             errphone = '验证码错误，请重新登录!'
