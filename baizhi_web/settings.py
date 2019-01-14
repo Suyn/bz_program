@@ -25,7 +25,7 @@ SECRET_KEY = '#(sb$co8=(-0!u*9na(n(tf#1m%um@wuq2#2aqk%*9yhz4czxa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -127,6 +127,11 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+# 配置redis的IP地址和port端口
+REDIS_IP = '192.168.15.128'
+REDIS_PORT = 6379
+
+
 STATIC_URL = '/static/'
 # 设置为一个会话结束
 SESSION_EXPIRE_AT_BROWSER_CLOSE=True
@@ -143,7 +148,7 @@ CACHES = {
       "default": {
          # pip install django-redis
          "BACKEND": "django_redis.cache.RedisCache",  # Redis缓存入口，其中使用DefaultClient操作缓存
-         "LOCATION": "redis://192.168.15.128:6379/15",  # ip:port/db_index
+         "LOCATION": "redis://%s:%s/15" % (REDIS_IP, REDIS_PORT),  # ip:port/db_index
          "OPTIONS": {
            "CLIENT_CLASS": "django_redis.client.DefaultClient"  # 操作缓存的对象
          }
@@ -154,44 +159,44 @@ CACHES = {
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 
 
-# # 创建日志的路径
-# LOG_PATH = os.path.join(BASE_DIR, 'logs')
-# # 如果地址不存在，则自动创建log文件夹
-# if not os.path.join(LOG_PATH):
-#     os.mkdir(LOG_PATH)
-#
-# LOGGING = {
-#     # version只能为1,定义了配置文件的版本，当前版本号为1.0
-#     "version": 1,
-#     # True表示禁用logger
-#     "disable_existing_loggers": True,
-#     # 格式化
-#     'formatters': {
-#         'default': {
-#             'format': '%(levelname)s\t%(asctime)s\t%(module)s\t%(process)d\t%(thread)d\t%(message)s'
-#         },
-#     },
-#     'handlers': {
-#         'my_handlers': {
-#             'level': 'DEBUG',
-#             # 日志文件指定为5M, 超过5m重新命名，然后写入新的日志文件
-#             'class': 'logging.handlers.RotatingFileHandler',
-#             # 指定文件大小
-#             'maxBytes': 5 * 1024,
-#             # 指定文件地址
-#             'filename': '%s/log.txt' % LOG_PATH,
-#             'formatter': 'default'
-#         },
-#     },
-#     'loggers': {
-#         'my': {
-#             'handlers': ['my_handlers'],
-#             'level': 'INFO',
-#         },
-#     },
-# }
-#
-# DJANGO_LOG_LEVEL = DEBUG
+# 创建日志的路径
+LOG_PATH = os.path.join(BASE_DIR, 'logs')
+# 如果地址不存在，则自动创建log文件夹
+if not os.path.join(LOG_PATH):
+    os.mkdir(LOG_PATH)
+
+LOGGING = {
+    # version只能为1,定义了配置文件的版本，当前版本号为1.0
+    "version": 1,
+    # True表示禁用logger
+    "disable_existing_loggers": True,
+    # 格式化
+    'formatters': {
+        'default': {
+            'format': '%(levelname)s\t%(asctime)s\t%(module)s\t%(process)d\t%(thread)d\t%(message)s'
+        },
+    },
+    'handlers': {
+        'my_handlers': {
+            'level': 'DEBUG',
+            # 日志文件指定为5M, 超过5m重新命名，然后写入新的日志文件
+            'class': 'logging.handlers.RotatingFileHandler',
+            # 指定文件大小
+            'maxBytes': 5 * 1024,
+            # 指定文件地址
+            'filename': '%s/log.txt' % LOG_PATH,
+            'formatter': 'default'
+        },
+    },
+    'loggers': {
+        'my': {
+            'handlers': ['my_handlers'],
+            'level': 'INFO',
+        },
+    },
+}
+
+DJANGO_LOG_LEVEL = DEBUG
 
 
 # Prohibit Crawl Settings

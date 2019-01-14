@@ -7,5 +7,7 @@
 # @Software: PyCharm
 import redis
 
-conn = redis.Redis('192.168.15.128', 6379, 14)
+from baizhi_web.settings import REDIS_IP, REDIS_PORT
+
+conn = redis.Redis(REDIS_IP, REDIS_PORT, 14)
 

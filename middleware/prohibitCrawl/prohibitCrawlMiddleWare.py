@@ -31,18 +31,12 @@ class ProhibitCrawlMiddleWare(MiddlewareMixin):
             if conn.get('prohibit_ip:'+ip):
                 return HttpResponse('您访问的太频繁了，请休息会儿再来')
             recorder = ProhibitRecorder.get_all_key(ip)
-            if not int(recorder['visit_num']) % MAX_VIEW_NUM:
-                return redirect('back_end:show_pro_page')
             if recorder:
-                # if int(recorder['visit_num']) % MAX_VIEW_NUM == 2:
-                #     conn.setex('prohibit_ip:' + ip, '1', EXP_TIME)
-                #     return HttpResponse('您访问的太频繁了，请休息会儿再来')
                 if not int(recorder['visit_num']) % MAX_VIEW_NUM:
                     if time.time()-float(recorder['last_visit_time']) < TIME_INTERVAL:
                         conn.setex('prohibit_ip:'+ip, '1', EXP_TIME)
                         return HttpResponse('您访问的太频繁了，请休息会儿再来')
-                    else:
-                        ProhibitRecorder.update_last_visit_time(ip)
+                    ProhibitRecorder.set_target_url(ip, request.path)
                     return redirect('back_end:show_pro_page')
                 ProhibitRecorder.visit_num_increment(ip)
             else:

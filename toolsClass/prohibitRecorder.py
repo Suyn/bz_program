@@ -18,7 +18,7 @@ class ProhibitRecorder(object):
 
     @classmethod
     def set_target_url(cls, key_name, url):
-        conn.hset(key_name, 'target_url', url)
+        conn.hset(key_name, 'target_url', url[1:])
 
     @classmethod
     def get_target_url(cls, key_name):

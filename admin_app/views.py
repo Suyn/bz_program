@@ -25,11 +25,11 @@ def getcaptcha(request):
     imgage = ImageCaptcha(fonts=[os.path.abspath('lib/captcha/verdana.ttf')])
     # 随机码
     # 大小写英文字母+数字，并随机取5位作为验证码
-    code = random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,4)
+    code = "".join(random.sample(string.ascii_lowercase+string.ascii_uppercase+string.digits,4))
     print('验证码：', code)
     # code是一个列表 用join转换成字符串
     # 将验证码存入session，以备后续验证
-    request.session["code"]="".join(code)
+    request.session["code"] = code
     # 将生成的随机字符拼接成字符串，作为验证码图片中的文本
     data = imgage.generate("".join(code))
     # 写出验证图片给客户端 告知浏览器，写出的内容是一图片

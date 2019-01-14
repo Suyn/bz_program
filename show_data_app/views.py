@@ -5,7 +5,7 @@ from urllib import parse
 
 from django.core.paginator import Paginator
 from django.http import JsonResponse, HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
 from lib.captcha.image import ImageCaptcha
@@ -192,6 +192,11 @@ def validate_pro_crawl_captcha(request):
         if capt and pro_crawl_code.lower() == capt.lower():
             ip = get_real_ip(request)
             ProhibitRecorder.visit_num_increment(ip)
+            ProhibitRecorder.update_last_visit_time(ip)
             return JsonResponse({'status': 200, 'data': ProhibitRecorder.get_target_url(ip)})
         return JsonResponse({'status': 400, 'data': '您输入的验证码不对'})
     return JsonResponse({'status': 400, 'data': '验证失败'})
+
+
+def turn_to_index(request):
+    return redirect('back_end:show_index')
